@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&display=swap');
+*{color: #2d3436;}
+body{
+  background: linear-gradient(to right, #a1ffce, #faffd1);
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+}
+#survey-form{
+  height: 500px;
+  padding-top: 30px;
+  margin-left: 200px;
+  margin-right: 300px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background: linear-gradient(to left, #005aa7, #fffde4);
+  border-radius: 3%;
+}
+.name{
+  margin-bottom: 10px;
+}
+.email{
+  margin-bottom: 10px;
+}
+.age{
+  margin-bottom: 10px;
+}
+#name-label{
+ padding-right: 6px;
+}
+#email-label{
+ padding-right: 10px;
+}#number-label{
+ padding-right: 20px;
+}
+.martial-head{
+  padding-top: 20px;
+}
+.martial-status{
+  padding-bottom: 20px;
+}
+.radio{
+  padding-bottom: 10px;
+}

@@ -1,0 +1,51 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<div class="container">
+  <header>
+<h1 id="title">Survey<h1>
+  <p id="description">Tell us about yourself cause you are Special</p>
+  </header>
+  <body>
+  <form id="survey-form">
+  <div class="name">
+    <label for="name" id="name-label">Name</label>
+    <input id="name" type="text" name="name" placeholder="Enter name"
+    required >
+  </div>
+    <div class="email">
+    <label for="email" id="email-label">Email</label>
+    <input type="email" id="email" placeholder="Enter email" name="email" required>
+    </div>
+    <div class="age">
+    <label for="age" id="number-label">Age</label>
+    <input type="number" id="number" name="age" placeholder="Enter age" 
+min="10" max="90"  >
+    </div>
+    <div id="gender"><p>Gender</p>
+    <input type="checkbox" value="male">Male
+      <input value="female" type="checkbox" name="female">Female
+    </div>
+    <div class="martial-status">
+    <p class="martial-head">Martial status</p>
+    <select name="martial" id="dropdown">
+      <option value="single">Single</option>
+      <option value="married">Married</option>
+      <option value="complicated">Complicated</option       >
+      </select>
+    </div>
+    <div class="radio"><p>How many children you have ?</p>
+      <input type="radio" value="zero" name="children">
+      <label for="zero">0</label>
+      <input type="radio" value="one" name="children">
+      <label for="one">1</label>
+      <input type="radio" value="two" name="children">
+      <label for="two">2</label>
+      <input type="radio" value="more" name="children">
+      <label for="more">more</label>
+    </div>
+    <div class="comment">
+      <textarea name="comment" id="comment" cols="50" rows="4"></textarea>
+      <input id="submit" type="submit" value="Submit">
+    </div>
+  </form>
+  </body>
+  </div>
